@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b14">
+  <meta name="description" content="New Prakash Radio Service, Idar, Gujarat — electronics, speakers, TVs, mobiles, smartwatches, ACs, coolers and more.">
+  <title>New Prakash Radio Service — Enter the Future</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+  <header class="nav">
+    <a class="brand" href="#home" aria-label="New Prakash Radio Service home">
+      <span class="brand-mark">NP<span>+</span></span>
+      <span class="brand-text">NEW PRAKASH<small>RADIO SERVICE · IDAR</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#experience">Experience</a><a href="#products">Products</a><a href="#visit">Visit us</a>
+    </nav>
+    <button class="nav-cta" id="openInquiry">Enquire <span>↗</span></button>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="journey" id="home" aria-label="A journey to our store">
+      <div class="journey-sticky">
+        <canvas id="globe" aria-label="Animated stylized globe"></canvas>
+        <div class="globe-grid"></div>
+        <div class="hero-copy" id="heroCopy">
+          <p class="eyebrow"><span class="live-dot"></span> YOUR NEIGHBOURHOOD TECH DESTINATION</p>
+          <h1>THE FUTURE<br><em>IS IN YOUR</em><br>HANDS.</h1>
+          <p class="hero-sub">From immersive sound to smarter living.<br>Discover it at New Prakash Radio Service.</p>
+          <a class="primary-btn" href="#products">Explore our universe <span>↓</span></a>
+        </div>
+        <div class="coordinates" id="coordinates"><span>DESTINATION LOCKED</span><b>IDAR · GUJARAT</b></div>
+        <div class="scroll-cue" id="scrollCue"><span class="mouse"><i></i></span><span>SCROLL TO TRAVEL</span></div>
+        <div class="holo-card" id="holoCard" aria-label="Shop identity card">
+          <div class="holo-card-inner" id="holoInner">
+            <article class="holo-face front">
+              <div class="card-top"><span>NP / IDAR</span><span class="card-chip">✦</span></div>
+              <div class="card-title">NEW PRAKASH<br><strong>RADIO SERVICE</strong></div>
+              <p>Your local gateway to extraordinary technology.</p>
+              <div class="card-foot"><span>NEAR TURANGA CIRCLE · IDAR</span><span>01 / 02</span></div>
+            </article>
+            <article class="holo-face back">
+              <div class="card-top"><span>WHAT'S INSIDE</span><span>✦</span></div>
+              <div class="back-list">SPEAKERS <b>01</b><br>TV & LED <b>02</b><br>MOBILES <b>03</b><br>SMART LIVING <b>04</b></div>
+              <div class="card-foot"><span>COME IN. POWER UP.</span><span>02 / 02</span></div>
+            </article>
+          </div>
+        </div>
+        <div class="journey-caption" id="journeyCaption">A WORLD OF TECHNOLOGY<br><small>ONE LOCAL DESTINATION</small></div>
+      </div>
+    </section>
+
+    <section class="intro section-pad" id="experience">
+      <div class="section-kicker reveal">01 / THE EXPERIENCE</div>
+      <div class="intro-grid">
+        <h2 class="reveal">TECH THAT<br><span>FEELS LIKE</span><br>THE FUTURE.</h2>
+        <div class="intro-text reveal"><p>Big sound. Brilliant screens. Everyday smart essentials. Explore the world of electronics and find the technology that fits your life.</p><a class="text-link" href="#products">Explore categories <span>↘</span></a></div>
+      </div>
+      <div class="ticker" aria-hidden="true"><div>SMARTER LIVING ✳ BIGGER SOUND ✳ BRIGHTER SCREENS ✳ SMARTER LIVING ✳ BIGGER SOUND ✳ BRIGHTER SCREENS ✳</div></div>
+    </section>
+
+    <section class="products section-pad" id="products">
+      <div class="section-heading reveal">
+        <div><div class="section-kicker">02 / THE CATALOGUE</div><h2>Find your next<br><span>favourite.</span></h2></div>
+        <p>Browse our product categories. Ask us about current models, availability and prices.</p>
+      </div>
+      <div class="catalog-tools reveal">
+        <label class="searchbox"><span>⌕</span><input id="productSearch" type="search" placeholder="Search products…" aria-label="Search products"></label>
+        <div class="filters" id="filters" aria-label="Filter categories">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="audio">Audio</button>
+          <button class="filter" data-filter="display">TV & LED</button>
+          <button class="filter" data-filter="mobile">Mobile</button>
+          <button class="filter" data-filter="home">Home</button>
+        </div>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card reveal" data-category="audio" data-search="speaker soundbar bluetooth audio">
+          <div class="product-art art-audio"><div class="speaker-shape"><i></i><i></i></div><span class="art-label">SOUND / 01</span></div>
+          <div class="product-info"><div><span class="category">AUDIO</span><h3>Speakers & Soundbars</h3></div><button class="add-btn" data-item="Speakers & Soundbars" aria-label="Enquire about speakers">↗</button></div>
+          <p>Bring every beat to life.</p>
+        </article>
+        <article class="product-card reveal" data-category="display" data-search="television tv led smart tv screen">
+          <div class="product-art art-tv"><div class="tv-shape"><div class="tv-screen"></div><span></span></div><span class="art-label">VISION / 02</span></div>
+          <div class="product-info"><div><span class="category">DISPLAY</span><h3>TVs & LED</h3></div><button class="add-btn" data-item="TVs & LED" aria-label="Enquire about TVs">↗</button></div>
+          <p>Make your entertainment bigger.</p>
+        </article>
+        <article class="product-card reveal" data-category="mobile" data-search="mobile phone smartphone accessories">
+          <div class="product-art art-mobile"><div class="phone-shape"><div class="phone-screen"></div><b></b></div><span class="art-label">CONNECT / 03</span></div>
+          <div class="product-info"><div><span class="category">MOBILE</span><h3>Mobiles & Accessories</h3></div><button class="add-btn" data-item="Mobiles & Accessories" aria-label="Enquire about mobiles">↗</button></div>
+          <p>Your world, always connected.</p>
+        </article>
+        <article class="product-card reveal" data-category="mobile" data-search="smartwatch watch wearable">
+          <div class="product-art art-watch"><div class="watch-shape"><div>⌚</div></div><span class="art-label">WEARABLE / 04</span></div>
+          <div class="product-info"><div><span class="category">WEARABLE</span><h3>Smartwatches</h3></div><button class="add-btn" data-item="Smartwatches" aria-label="Enquire about smartwatches">↗</button></div>
+          <p>Useful tech, right on your wrist.</p>
+        </article>
+        <article class="product-card reveal" data-category="home" data-search="air conditioner ac cooler cooling">
+          <div class="product-art art-cooling"><div class="cooler-shape"><span>❄</span><i></i><i></i><i></i></div><span class="art-label">COMFORT / 05</span></div>
+          <div class="product-info"><div><span class="category">HOME COMFORT</span><h3>ACs & Coolers</h3></div><button class="add-btn" data-item="ACs & Coolers" aria-label="Enquire about cooling">↗</button></div>
+          <p>Feel good through every season.</p>
+        </article>
+        <article class="product-card reveal" data-category="home" data-search="electronics appliances led accessories">
+          <div class="product-art art-tech"><div class="tech-orb"><span>NP</span></div><span class="art-label">EVERYDAY / 06</span></div>
+          <div class="product-info"><div><span class="category">ELECTRONICS</span><h3>More essentials</h3></div><button class="add-btn" data-item="Other electronics" aria-label="Enquire about other electronics">↗</button></div>
+          <p>Ask us about the electronics you need.</p>
+        </article>
+      </div>
+      <div class="no-results" id="noResults" hidden>No matching categories. Try another search.</div>
+    </section>
+
+    <section class="visit section-pad" id="visit">
+      <div class="visit-panel reveal">
+        <div class="visit-copy">
+          <div class="section-kicker">03 / YOUR REAL-WORLD DESTINATION</div>
+          <h2>Find us<br><span>in Idar.</span></h2>
+          <p>New Prakash Radio Service<br>Near Turanga Circle, near the petrol pump<br>Idar, Gujarat, India</p>
+          <a class="primary-btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=New+Prakash+Radio+Service+Turanga+Circle+Idar+Gujarat">Open directions <span>↗</span></a>
+          <p class="tiny-note">Map opens a search for the shop and landmark. Confirm the exact pin before travelling.</p>
+        </div>
+        <div class="visit-visual" aria-hidden="true"><div class="radar"><span></span><span></span><span></span><b>NP</b></div><div class="map-label">IDAR / GUJARAT<br><small>LOCAL SIGNAL FOUND</small></div></div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="section-kicker reveal">04 / START A CONVERSATION</div>
+      <h2 class="reveal">WHAT ARE YOU<br><span>LOOKING FOR?</span></h2>
+      <p class="reveal">Send us an enquiry and tell us what product you have in mind.</p>
+      <button class="primary-btn reveal" id="contactButton">Create an enquiry <span>↗</span></button>
+      <div class="contact-foot"><span>NEW PRAKASH RADIO SERVICE</span><span>IDAR · GUJARAT · INDIA</span></div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">NP<span>+</span></span><span class="brand-text">NEW PRAKASH<small>RADIO SERVICE · IDAR</small></span></a><span>© <span id="year"></span> · Built for a brighter tomorrow.</span></footer>
+
+  <dialog id="inquiryDialog" class="dialog">
+    <form method="dialog" class="dialog-close"><button aria-label="Close enquiry">×</button></form>
+    <div class="section-kicker">QUICK ENQUIRY</div><h2>Let's find your tech.</h2>
+    <p>Choose a category and add your question. This opens WhatsApp with a draft message; review it before sending.</p>
+    <label for="enquiryProduct">What are you interested in?</label>
+    <select id="enquiryProduct"><option>General enquiry</option><option>Speakers & Soundbars</option><option>TVs & LED</option><option>Mobiles & Accessories</option><option>Smartwatches</option><option>ACs & Coolers</option><option>Other electronics</option></select>
+    <label for="enquiryMessage">Your message</label><textarea id="enquiryMessage" rows="3" placeholder="Hi, I would like to ask about…"></textarea>
+    <button class="primary-btn" id="sendEnquiry">Continue to WhatsApp ↗</button>
+    <small class="dialog-hint">Shop WhatsApp number needs to be configured in script.js before this works.</small>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
